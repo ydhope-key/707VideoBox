@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8" />
+	<title>707VideoBox</title>
+	<link rel="shortcut icon" href="./img/favicon.ico"/>
+	<link href="./css/video.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+</head>
+
+<body>
+	<h1 style="text-indent: -9999"></h1>
+	<div id="titleBar">
+		<p class="name">707VideoBox</p>
+		<ul>
+			<a href="https://heiyu707.cn" title="707MusicBox"><li style="cursor: default">Music</li></a>
+			<a href="https://video.heiyu707.cn/login" title="登录文件管理系统"><li style="cursor: default">登录</li></a>
+		</ul>
+	</div>
+	
+	<div id="player">
+		<!-- 列表 -->
+		<div id="list" class="up-right-icon list"></div>
+		<div id="name">请选择视频</div>
+		<video id="video" src="###" controls="controls" autoplay="autoplay"></video>
+	</div>
+	
+	<div id="close-list" class="close-list"></div>
+	<div id="video-list" class="video-list">
+		<div class="video-list-title">播放列表</div>
+		<div id="selector" class="selector"></div>
+	</div>
+	<script type="text/javascript" src="./js/video.js"></script>
+</body>
+</html>
