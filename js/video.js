@@ -36,7 +36,7 @@ let fileList = '';
 let realDirectory = new Array(videoname.length);
 $.ajax({
 			type: 'get',
-			url: "https://video.heiyu707.cn/fileServer/findVideoJSON",
+			url: "https://video.heiyu707.cn/fileServer/findJSONByFileService?type=video",
 			dataType: "json",
 			success: function(res) {
                 console.log('success');
